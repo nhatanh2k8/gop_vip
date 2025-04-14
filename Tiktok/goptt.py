@@ -887,7 +887,7 @@ def main():
         print("\n")
         animate_text(f"❌ Lỗi không mong muốn: {str(e)}", Fore.RED)
     finally:
-        if 'session' in locals():
+        if 'session' in locals() and session:
             session.close()
 
 if __name__ == '__main__':
