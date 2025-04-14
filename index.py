@@ -72,11 +72,6 @@ while True:
 	print("\033[1;37m║  \033[1;32mTool Facebook \033[1;37m║          ")
 	print("\033[1;37m╚══════════════════════╝           ")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m3.1 \033[1;97m: \033[1;34mTool Share Ảo Facebook \033[1;32m[Online]")
-	print("\033[1;37m╔══════════════════════╗         ")
-	print("\033[1;37m║  \033[1;32mTool Tiện Ích \033[1;37m      ║   ")
-	print("\033[1;37m╚══════════════════════╝           ")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m4.1 \033[1;97m: \033[1;34mTool Enc Code\033[1;32m[Online]")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m0 \033[1;97m: \033[1;34mThoát Tool\033[1;32m[Online]")
 	print(f"\033[97m════════════════════════════════════════════════════════")
 	chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
 	print('\033[1;39m─────────────────────────────────────────────────────────── ')
@@ -93,12 +88,6 @@ while True:
 	elif chon == '3.1':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Facebook/share.py').text)
-		# Buff view
-	elif chon == '4.1':
-		# Thanh Công
-		exec(requests.get('https://github.com/nhatanh2k8/gop_vip/blob/main/Tienich/enc.py').text)
-	elif chon == '0':
-		# Thanh Công
-		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tienich/ThoatTool.py').text)          
+		# Buff view          
 	else:
 		sys.exit("")
