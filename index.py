@@ -80,7 +80,7 @@ while True:
 		# TDS
 	elif chon == '2.1':
 		# Thanh Công
-		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/Anhcode/refs/heads/main/TienIchFaceBook/share.py').text)
+		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/share.py').text)
 		          
 	else:
 		sys.exit("")
