@@ -61,33 +61,26 @@ while True:
 	os.system('cls' if os.name == 'nt' else 'clear')
 	banner()
 	print("\033[1;37m╔══════════════════════╗         ")
-	print("\033[1;37m║  \033[1;32mTool Auto Golike    \033[1;37m║          ")
-	print("\033[1;37m╚══════════════════════╝           ")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.1 \033[1;97m: \033[1;34mTool Auto TikTok \033[1;32m[Online]")
-	print("\033[1;37m╔══════════════════════╗         ")
 	print("\033[1;37m║  \033[1;32mTool TikTok \033[1;37m║          ")
 	print("\033[1;37m╚══════════════════════╝           ")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m2.1 \033[1;97m: \033[1;34mTool Gộp TikTok \033[1;32m[Online]")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.1 \033[1;97m: \033[1;34mTool Gộp TikTok \033[1;32m[Online]")
 	print("\033[1;37m╔══════════════════════╗         ")
 	print("\033[1;37m║  \033[1;32mTool Facebook \033[1;37m║          ")
 	print("\033[1;37m╚══════════════════════╝           ")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m3.1 \033[1;97m: \033[1;34mTool Share Ảo Facebook \033[1;32m[Online]")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m2.1 \033[1;97m: \033[1;34mTool Share Ảo Facebook \033[1;32m[Online]")
 	print(f"\033[97m════════════════════════════════════════════════════════")
 	chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
 	print('\033[1;39m─────────────────────────────────────────────────────────── ')
 	
 		# Thành Công
 		
+	
 	if chon == '1.1':
-		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Golike/tiktok.py').text)
-        
-		# TTC
-	elif chon == '2.1':
 		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/goptt.py').text)
 		# TDS
-	elif chon == '3.1':
+	elif chon == '2.1':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Facebook/share.py').text)
-		# Buff view          
+		          
 	else:
 		sys.exit("")
