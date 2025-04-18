@@ -64,10 +64,16 @@ while True:
 	print("\033[1;37m║  \033[1;32mTool TikTok \033[1;37m║          ")
 	print("\033[1;37m╚══════════════════════╝           ")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.1 \033[1;97m: \033[1;34mTool Gộp TikTok \033[1;32m[Online]")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.2 \033[1;97m: \033[1;34mTool Gộp TikTok (Zefoy)  \033[1;32m[Online]")
 	print("\033[1;37m╔══════════════════════╗         ")
 	print("\033[1;37m║  \033[1;32mTool Facebook \033[1;37m║          ")
 	print("\033[1;37m╚══════════════════════╝           ")
 	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m2.1 \033[1;97m: \033[1;34mTool Share Ảo Facebook \033[1;32m[Online]")
+	print(f"\033[97m════════════════════════════════════════════════════════")
+print("\033[1;37m╔══════════════════════╗         ")
+	print("\033[1;37m║  \033[1;32mTiện ích \033[1;37m║          ")
+	print("\033[1;37m╚══════════════════════╝           ")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m3.1 \033[1;97m: \033[1;34mTool Dec \033[1;32m[Online]")
 	print(f"\033[97m════════════════════════════════════════════════════════")
 	chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
 	print('\033[1;39m─────────────────────────────────────────────────────────── ')
@@ -77,10 +83,18 @@ while True:
 	
 	if chon == '1.1':
 		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/goptt.py').text)
+	elif chon == '1.2':
+		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/he_enc.py').text)
 		# TDS
 	elif chon == '2.1':
 		# Thanh Công
 		exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/share.py').text)
+#tienich
+	elif chon == '3.1':
+		exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tienich/xuatdec_enc.py').text)
+
+
+
 		          
 	else:
 		sys.exit("")
