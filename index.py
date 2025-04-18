@@ -21,6 +21,7 @@ except:
     print('__Vui Lòng Chạy Lại Tool__')
 
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+
 xnhac = "\033[1;36m"
 do = "\033[1;31m"
 luc = "\033[1;32m"
@@ -55,7 +56,7 @@ def banner():
 """
     for X in banner:
         sys.stdout.write(X)
-        sys.stdout.flush() 
+        sys.stdout.flush()
         sleep(0.000001)
 
 while True:
@@ -76,7 +77,7 @@ while True:
     print("\033[1;37m╚══════════════════════╝           ")
     print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m3.1 \033[1;97m: \033[1;34mTool Dec \033[1;32m[Online]")
     print(f"\033[97m════════════════════════════════════════════════════════")
-    
+
     chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
     print('\033[1;39m─────────────────────────────────────────────────────────── ')
 
