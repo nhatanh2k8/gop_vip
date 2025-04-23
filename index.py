@@ -66,7 +66,8 @@ while True:
     print("\033[1;37m║  \033[1;32mTool TikTok \033[1;37m║          ")
     print("\033[1;37m╚══════════════════════╝           ")
     print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.1 \033[1;97m: \033[1;34mTool Gộp TikTok \033[1;32m[Online]")
-    print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.2 \033[1;97m: \033[1;34mTool Gộp TikTok (Zefoy)  \033[1;32m[Online]")
+    print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.2 \033[1;97m: \033[1;34mTool Gộp TikTok Zefoy [PC Mới Dùng Được] \033[1;32m[Online]")
+    print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m1.3 \033[1;97m: \033[1;34mTool Gộp TikTok Zefoy [Đa Thiết Bị]  \033[1;32m[Online]")
     print("\033[1;37m╔══════════════════════╗         ")
     print("\033[1;37m║  \033[1;32mTool Facebook \033[1;37m║          ")
     print("\033[1;37m╚══════════════════════╝           ")
@@ -85,6 +86,8 @@ while True:
         exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/goptt.py').text)
     elif chon == '1.2':
         exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/he_enc.py').text)
+    elif chon == '1.3':
+        exec(requests.get('https://raw.githubusercontent.com/nhatanh2k8/gop_vip/refs/heads/main/Tiktok/fltik1_enc.py').text)    
     elif chon == '2.1':
         exec(requests.get('https://raw.githubusercontent.com/Anhcode2008/AnhhCode/refs/heads/main/TienIchFaceBook/share.py').text)
     elif chon == '3.1':
